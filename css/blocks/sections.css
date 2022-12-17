@@ -1,0 +1,32 @@
+.section-header {
+}
+.section-header__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+/* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+.section-header__desc {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+/* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #999999;
+
+}
+.section-header__desc p {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
