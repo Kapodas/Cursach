@@ -1,0 +1,44 @@
+.footer{
+    padding: 30px 0;
+    background-color: black;
+    color: white;
+}
+.footer a{
+    color: white;
+}
+.footer__columns
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.footer__nav
+{
+   margin-bottom: 25px;
+   font-size: 14px;
+   text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.footer__nav a
+{
+    text-decoration: none;
+}
+.footer__nav > a + a
+{
+ margin-left: 30px;
+}
+.footer__socials
+{
+   margin-bottom: 25px;
+}
+.footer_socials-link
+{
+    
+    text-decoration: none;
+
+}
+.footer_socials-link + .footer_socials-link
+{
+    margin-left: 31px;
+}
