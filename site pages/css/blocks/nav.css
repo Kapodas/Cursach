@@ -47,13 +47,7 @@ a.nav__logo:hover{
     color: #F72464;
 }
 
-.Sign__up {
-    margin-left: 500px;
-    position: relative;
-    display: inline-block;
-    top: 5px;
-    padding: 5px;
-}
+
 .nav__cart {
     margin-left: auto;
 }

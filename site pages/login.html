@@ -1,41 +1,46 @@
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="widht=device-width, initial-scale=1.0">
-  <title>Registration</title>
-  <link rel   =   "stylesheet"    href =   "./css/login/login.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
-</head>    
-
-<div>
-<a href="index.html">  
-<span class="close" title="Close Modal">X</span>
-</a>
-<form class="modal-content">
-  <div class="container">
-    <h1>Sign Up</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-    <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-    </label>
-    
-    <div class="clearfix">
-      <a href="index.html">  
-        <button type="button" class="cancelbtn">Cancel</button>
-      </a>
-      <a href="index.html">  
-        <button type="submit" class="signupbtn">Sign Up</button>
-      </a> 
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/login/login.css"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <div class="container a-container" id="a-container">
+        <form class="form" id="a-form" method="" action="">
+          <h2 class="form_title title">Create Account</h2>
+          
+          <input class="form__input" type="text" placeholder="Name">
+          <input class="form__input" type="text" placeholder="Email">
+          <input class="form__input" type="password" placeholder="Password">
+          <button class="form__button button submit">SIGN UP</button>
+        </form>
+      </div>
+      <div class="container b-container" id="b-container">
+        <form class="form" id="b-form" method="" action="">
+          <h2 class="form_title title">Sign in to Website</h2>
+          
+          <input class="form__input" type="text" placeholder="Email">
+          <input class="form__input" type="password" placeholder="Password"><a class="form__link">Forgot your password?</a>
+          <button class="form__button button submit">SIGN IN</button>
+        </form>
+      </div>
+      <div class="switch" id="switch-cnt">
+        <div class="switch__circle"></div>
+        <div class="switch__circle switch__circle--t"></div>
+        <div class="switch__container" id="switch-c1">
+          <h2 class="switch__title title">Welcome Back !</h2>
+          <p class="switch__description description">To keep connected with us please login with your personal info</p>
+          <button class="switch__button button switch-btn">SIGN IN</button>
+        </div>
+        <div class="switch__container is-hidden" id="switch-c2">
+          <h2 class="switch__title title">Hello Friend !</h2>
+          <p class="switch__description description">Enter your personal details and start journey with us</p>
+          <button class="switch__button button switch-btn">SIGN UP</button>
+        </div>
+      </div>
     </div>
-  </div>
-</form>
-</div>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
